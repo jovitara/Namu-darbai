@@ -1,0 +1,51 @@
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    padding: 25%;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.box-button-wraper {
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.box-button {
+    width: 45%;
+    border: 1px solid white;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box-icons {
+    width: 100%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
